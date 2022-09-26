@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap);
+
+:root {
+  --body-font: 'Poppins';
+  --border-color: rgba(113, 119, 144, 0.25);
+  --button-inactive: rgba(249, 250, 251, 0.55);
+  --content-title: rgb(153, 155, 165);
+  --content-bg: rgba(147, 152, 180, 0.13);
+  --dropdown-bg: rgba(33, 36, 45, 0.7);
+  --dropdown-hover: rgb(42 46 60);
+  --inactive-color: rgba(122, 128, 151, 0.78);
+  --menu-hover: rgba(12, 15, 25, 0.3);
+  --overlay-bg: rgba(36, 39, 59, 0.3);
+  --popup-bg: rgb(22 25 37);
+  --scrollbar-bg: rgba(1, 2, 3, 0.4);
+  --search-bg: rgb(20, 22, 43);
+  --theme-color: rgb(249, 250, 251);
+  --theme-bg: rgba(16, 18, 27, 0.4);
+}
+
+:root[theme-mode='light'] {
+  --border-color: rgba(255, 255, 255, 0.35);
+  --button-inactive: rgb(60, 58, 58);
+  --content-title: rgb(60, 58, 58);
+  --dropdown-bg: rgb(247, 247, 247);
+  --dropdown-hover: rgb(236 236 236);
+  --inactive-color: rgb(51, 51, 51);
+  --menu-hover: rgba(255, 255, 255, 0.35);
+  --overlay-bg: rgba(255, 255, 255, 0.3);
+  --popup-bg: rgb(255 255 255);
+  --scrollbar-bg: rgba(255, 253, 253, 0.57);
+  --search-bg: rgba(255, 255, 255, 0.3);
+  --theme-color: rgb(60, 58, 58);
+  --theme-bg: rgba(255, 255, 255, 0.3);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  position: relative;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
