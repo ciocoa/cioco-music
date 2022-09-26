@@ -28,6 +28,6 @@ export const sentCaptchaApi = (data: BaseParams) =>
   http.get<CaptchaResult>({ url: '/captcha/sent', data })
 
 export const loginApi = (data: LoginParams) =>
-  http.post<LoginResult>({ url: '/login/cellphone', data })
+  http.get<LoginResult>({ url: '/login/cellphone', data })
 
 export const logoutApi = () => http.post<BaseResult>({ url: '/logout' })
